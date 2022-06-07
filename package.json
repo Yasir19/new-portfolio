@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Yasir19/new-portfolio.git",
+  "homepage": "http://yasir19/new-portfol",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -44,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
