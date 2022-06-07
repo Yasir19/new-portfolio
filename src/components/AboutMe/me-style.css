@@ -1,0 +1,113 @@
+.profile-container{  
+    color:#fff;
+    display: grid;
+    margin: auto;
+    position: relative;
+    grid-template-columns:repeat(2 , 1fr);
+    grid-template-rows: auto(100% - 1em);;
+			grid-template-areas:
+				"about pic"
+				"des tag"
+}
+.primary-text{
+    grid-area: about;
+    font-size:40px;
+    font-family:"Poppins semiBold";
+    width: max-content;
+    
+}
+.primary-text h1 {
+    padding: 1rem;
+}
+.highligted-text{
+    padding: 4rem;
+    font-family: cursive;
+    color: darkorange
+}
+.primary-text p {
+    padding-left: 6rem;
+}
+.profile-details-role{
+    grid-area: tag;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.profile-role-tagline{
+    grid-area: des;
+    font-size: 24px;
+    line-height: 1.5;
+    font-family:"Poopins Light";
+    height:fit-content ;
+    margin: 3rem 1rem 3rem 6rem ;
+
+}
+.styles_typicalWrapper__1_Uvh{
+    font-size: 30px;
+}
+.picture-container{
+    grid-area: pic;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.profile-picture{
+  
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    box-shadow: 0 1px 0 0 #fff;
+    border-radius: 60%;
+    height:380px;
+    width:380px;
+    margin:10px 20px;
+}
+.profile-picture-background{
+    height:92%;
+    width:92%;
+    background-image: url("../../assets/Screen\ Shot\ 2022-04-03\ at\ 4.37.30\ PM.png");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position:center ;
+
+}
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out ;
+
+}
+@media screen and (max-width:940px){
+    .profile-container{  
+        color:rgb(255, 255, 255);
+        display: grid;
+        overflow: hidden;
+        margin: auto;
+    position: relative;
+        grid-template-columns:repeat(1 , 1fr);
+        grid-template-rows: auto(100%);;
+                grid-template-areas:
+                    "pic"
+                    "about"
+                    "tag"
+                    "des"
+                    
+}
+.primary-text{
+    margin: auto;
+}
+.primary-text p {
+    display:none;
+}
+
+}
+@media screen and (max-width:610px){
+    .styles_typicalWrapper__1_Uvh{
+        font-size: 24px;
+    }
+.profile-role-tagline{
+    font-size: 20px;
+    margin: 1rem;
+}
+}

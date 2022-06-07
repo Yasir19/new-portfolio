@@ -1,0 +1,22 @@
+footer {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin:2rem
+  
+  }
+  
+footer a {
+    color:#fafafa;
+    margin: 10px 20px;
+    transition: all .3s ease-in-out;
+    padding:calc(1rem);
+  }
+  
+  .footer a:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    
+  }

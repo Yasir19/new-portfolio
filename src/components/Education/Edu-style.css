@@ -1,0 +1,74 @@
+.Edu-container{
+        color:#fff;
+        display: grid;
+        margin: auto;
+        position: relative;
+        grid-template-columns:auto(3 , 1fr);
+        grid-template-rows: auto(100% - 1em);;
+                grid-template-areas:
+                    "education title"
+                    "institution degree" 
+                    "institution1 degree1"
+                    "institution2 degree2"
+    }
+    .educ{
+        grid-area: education;
+        margin: 1rem 3rem;
+    }
+    .deg{
+        grid-area: title;
+        margin: 1rem 4rem;
+    }
+    .institution,.institution1,.institution2{
+        margin: 3rem;
+        font: 1em sans-serif;
+        line-height: 1.5;
+    }
+    .institution{
+        grid-area:institution;
+    
+    }
+    .institution1{
+        grid-area:institution1;
+    
+    }
+    .institution2{
+        grid-area:institution2;
+    
+    }
+    .degree,.degree1,.degree2{
+        margin: 3rem;
+        font: 1em sans-serif;
+        line-height: 2;
+    }
+    .degree{
+        grid-area: degree;
+    }
+    .degree1{
+        grid-area: degree1;
+    }
+    .degree2{
+        grid-area: degree2;
+    }
+    @media screen and (max-width:940px){
+        .Edu-container{  
+            color:rgb(255, 255, 255);
+            display: grid;
+            overflow: hidden;
+            margin: auto;
+        position: relative;
+            grid-template-columns:auto(1 , 1fr);
+            grid-template-rows: auto(100%);;
+                    grid-template-areas:
+                        "education"
+                        "institution"
+                        "institution1"
+                        "institution2"
+        }
+        .degree,.degree1,.degree2{
+            display: none;
+        }
+        .deg{
+            display: none;
+        }
+    }

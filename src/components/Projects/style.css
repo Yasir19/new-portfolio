@@ -1,0 +1,93 @@
+.project{
+    color:#fff;
+    display: grid;
+    margin: auto;
+    position: relative;
+    grid-template-columns:auto(3 , 1fr);
+    grid-template-rows: auto(100% - 1em);;
+            grid-template-areas:
+                "deep auction"
+                "generate weather" 
+}
+.carousel {
+    display: none;
+}
+.deep-thoughts,.action-house,.password-generator,.weather-dashboard{
+    margin: 3rem 8rem;
+}
+.deep-thoughts{
+    grid-area: deep;
+}
+.action-house{
+    grid-area: auction;
+}
+.password-generator{
+    grid-area: generate;
+}
+.weather-dashboard{
+    grid-area: weather;
+}
+.slide {
+    opacity : 0;
+    transition-duration:1s ease;
+}
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform:scale(1.08);
+}
+@media screen and (max-width:940px){
+
+    .project{
+ display: none;
+                
+    }
+    .carousel{
+        color:#fff;
+        display: grid;
+        margin: auto;
+        position: relative;
+        grid-template-columns:auto(3 , 1fr);
+        grid-template-rows: auto(100% - 1em);;
+                grid-template-areas:
+                    "left carousel1 right"
+    }
+    .page{
+        grid-area:carousel1 ;
+    }
+    .carousel-btn{
+        font-size: 2rem;
+        color: rbga(255, 255, 255, .2);
+        cursor: pointer;
+        border-radius: .25rem;
+        padding: 0 .5rem;
+        background-color: rgba(238, 238, 238, 0.1);
+        margin: auto;
+        align-content: space-between;
+
+    }
+    .carousel-btn:hover, .carousel-btn:focus{
+        color: #fff;
+        background-color: rgba(238, 238, 238, 0.2);
+    }
+    .carousel-btn:focus{
+        color: #fff;
+        outline: 1px solid #fff;
+    }
+        .carousel-btn.left{
+            grid-area: left;
+ 
+      
+    }
+    .carousel-btn.right{
+        grid-area: right;
+}
+.deep-thoughts,.action-house,.password-generator,.weather-dashboard {
+    grid-area:carousel1 ;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    margin: auto;
+  }
+}

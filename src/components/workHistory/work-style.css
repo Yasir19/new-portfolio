@@ -1,0 +1,117 @@
+.work-container{
+    color:#fff;
+    display: grid;
+    margin: auto;
+    position: relative;
+    grid-template-columns:auto(2 , 1fr);
+    grid-template-rows: auto(100% - 1em);;
+			grid-template-areas:
+				"work role" 
+                "title desc"
+				"title2 desc2"
+}
+.headline,.headline2{
+    display: none
+}
+h3{
+    grid-area: work;
+    margin: 1rem 3rem;
+}
+.role{
+    grid-area: role;
+    margin: 1rem 4rem;
+}
+.title{
+    grid-area: title;
+    margin: 3rem;
+    font: 1em sans-serif;
+    line-height: 1.5;
+}
+.desc{
+    grid-area: desc;
+    margin: 3rem;
+    font: 1em sans-serif;
+    line-height: 2;
+
+}
+.title2{
+    grid-area: title2;
+    margin: 3rem;
+    font: 1em sans-serif;
+    line-height: 1.5;
+}
+.desc2{
+    grid-area: desc2;
+    margin: 3rem;
+    font: 1em sans-serif;
+    line-height: 2;
+}
+.skills{
+    list-style:"❧ ";
+}
+@media screen and (max-width:940px){
+    .work-container{  
+        color:rgb(255, 255, 255);
+        display: grid;
+        overflow: hidden;
+        margin: auto;
+    position: relative;
+        grid-template-columns:auto(1 , 1fr);
+        grid-template-rows: auto(100%);;
+                grid-template-areas:
+                    "work"
+                    "title"
+                    "area"
+                    "title1"
+                    "area1"
+    }
+    .headline,.headline2{
+        display: flex;
+        margin-left: 3rem;
+        flex-wrap: wrap;
+        font-size: 16px;
+        font-family:'Aladin', cursive;;
+    }
+    .headline{
+        grid-area: area;
+      
+       
+    }
+    .headline2{
+        grid-area: area1;
+    }
+    h3{
+        grid-area: work;
+        margin: 1rem 3rem;
+    }
+    .role{
+        display: none;
+    }
+    .title{
+        grid-area: title;
+        margin: 3rem;
+        font: 1em sans-serif;
+        line-height: 1.5;
+    }
+    .desc{
+        display: none;
+        grid-area: desc;
+        margin: 3rem;
+        font: 1em sans-serif;
+        line-height: 2;
+    
+    }
+    .title2{
+        grid-area: title1;
+        margin: 3rem;
+        font: 1em sans-serif;
+        line-height: 1.5;
+    }
+    .desc2{
+        display: none;
+        grid-area: desc2;
+        margin: 3rem;
+        font: 1em sans-serif;
+        line-height: 2;
+    }           
+}
