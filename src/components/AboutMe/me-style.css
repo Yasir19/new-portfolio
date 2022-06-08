@@ -11,7 +11,6 @@
 }
 .primary-text{
     grid-area: about;
-    font-size:40px;
     font-family:"Poppins semiBold";
     width: max-content;
     
@@ -20,22 +19,22 @@
     padding: 1rem;
 }
 .highligted-text{
+    font-size:5vh;
     padding: 4rem;
     font-family: cursive;
     color: darkorange
 }
 .primary-text p {
+    font-size: 2vh;
     padding-left: 6rem;
 }
 .profile-details-role{
     grid-area: tag;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: auto;
 }
 .profile-role-tagline{
     grid-area: des;
-    font-size: 24px;
+    font-size: 2.5vh;
     line-height: 1.5;
     font-family:"Poopins Light";
     height:fit-content ;
@@ -43,7 +42,7 @@
 
 }
 .styles_typicalWrapper__1_Uvh{
-    font-size: 30px;
+    font-size: 2.5vh;
 }
 .picture-container{
     grid-area: pic;
@@ -55,13 +54,13 @@
 .profile-picture{
   
     display: flex;
-    align-items:center;
-    justify-content: center;
+     align-items:center;
+    justify-content: center; 
     box-shadow: 0 1px 0 0 #fff;
     border-radius: 60%;
     height:380px;
     width:380px;
-    margin:10px 20px;
+    /* margin-right: 2rem; */
 }
 .profile-picture-background{
     height:92%;
@@ -86,7 +85,7 @@
         margin: auto;
     position: relative;
         grid-template-columns:repeat(1 , 1fr);
-        grid-template-rows: auto(100%);;
+        grid-template-rows: repeat(100%);
                 grid-template-areas:
                     "pic"
                     "about"
@@ -103,11 +102,20 @@
 
 }
 @media screen and (max-width:610px){
-    .styles_typicalWrapper__1_Uvh{
-        font-size: 24px;
-    }
 .profile-role-tagline{
-    font-size: 20px;
     margin: 1rem;
+}
+@media screen and (max-width:520px){
+      .highligted-text{
+          padding: 3rem;
+      }
+      .profile-picture{
+        height:320px;
+        width:320px;
+      }
+      .profile-role-tagline{
+          font-size: 2vh;
+      }
+
 }
 }
