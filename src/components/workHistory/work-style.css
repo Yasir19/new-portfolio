@@ -21,7 +21,7 @@ h3{
     grid-area: role;
     margin: 1rem 4rem;
 }
-.title{
+.title1{
     grid-area: title;
     margin: 3rem;
     font: 1em sans-serif;
@@ -87,7 +87,7 @@ h3{
     .role{
         display: none;
     }
-    .title{
+    .title1{
         grid-area: title;
         margin: 3rem;
         font: 1em sans-serif;
