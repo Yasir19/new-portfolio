@@ -16,7 +16,7 @@ function SubNav(props ) {
     return(
              <div className='sub-container'>
                  <div className='sub-menu'>
-                 <ul className={click ? 'nav-menu active' : 'nav-menu2'}>
+                 <ul className={click ? 'nav-menu2 active' : 'nav-menu2'}>
                 {pages.map(page =>(
                     <li className={`nav ${currentPage.name === page.name && 'navActive'}`}
                     key={page.name}

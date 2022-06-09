@@ -54,6 +54,8 @@
     }
     .page{
         grid-area:carousel1 ;
+        width: 95%;
+        margin: auto;
     }
     .carousel-btn{
         font-size: 2rem;

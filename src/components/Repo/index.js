@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { removeHyphensAndCapitalize } from "../../utlis/helpers";
+import { FaGithub } from "react-icons/fa";
 import './repo-style.css'
 
 function Repo({ project}) {
@@ -14,12 +15,13 @@ function Repo({ project}) {
       />
       <div className="project-text">
         <h3>
-          <i className="fa fa-github"></i>
+          <FaGithub className="icons"/>
           <a className="url" href={url}>{removeHyphensAndCapitalize(name)}</a>{" "}
           <a  href={repo}></a>
+          <p className="repo-desc">{desc}</p>
         </h3>
-        <p className="repo-desc">{desc}</p>
       </div>
+      
 
     </div>
   );

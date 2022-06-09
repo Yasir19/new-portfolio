@@ -15,34 +15,34 @@
 }
 h3{
     grid-area: work;
-    margin: 1rem 3rem;
+    margin: 1rem 1.5rem;
 }
 .role{
     grid-area: role;
-    margin: 1rem 4rem;
+    margin: 1rem 2.5rem;
 }
 .title1{
     grid-area: title;
-    margin: 3rem;
+    margin: 2rem;
     font: 1em sans-serif;
     line-height: 1.5;
 }
 .desc{
     grid-area: desc;
-    margin: 3rem;
+    margin: 2rem;
     font: 1em sans-serif;
     line-height: 2;
 
 }
 .title2{
     grid-area: title2;
-    margin: 3rem;
+    margin: 2rem;
     font: 1em sans-serif;
     line-height: 1.5;
 }
 .desc2{
     grid-area: desc2;
-    margin: 3rem;
+    margin: 2rem;
     font: 1em sans-serif;
     line-height: 2;
 }
@@ -67,10 +67,11 @@ h3{
     }
     .headline,.headline2{
         display: flex;
-        margin-left: 3rem;
+        margin-left: 2rem;
         flex-wrap: wrap;
         font-size: 16px;
-        font-family:'Aladin', cursive;;
+        font-family:'Aladin', cursive;
+        padding: 0;
     }
     .headline{
         grid-area: area;
@@ -82,35 +83,35 @@ h3{
     }
     h3{
         grid-area: work;
-        margin: 1rem 3rem;
+        margin: 1rem 2rem;
     }
     .role{
         display: none;
     }
     .title1{
         grid-area: title;
-        margin: 3rem;
+        margin: 2rem;
         font: 1em sans-serif;
         line-height: 1.5;
     }
     .desc{
         display: none;
         grid-area: desc;
-        margin: 3rem;
+        margin: 2rem;
         font: 1em sans-serif;
         line-height: 2;
     
     }
     .title2{
         grid-area: title1;
-        margin: 3rem;
+        margin: 2rem;
         font: 1em sans-serif;
         line-height: 1.5;
     }
     .desc2{
         display: none;
         grid-area: desc2;
-        margin: 3rem;
+        margin: 2rem;
         font: 1em sans-serif;
         line-height: 2;
     }           
