@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.0cd60039.css",
-    "main.js": "/new-portfolio/static/js/main.5fd1fed8.js",
+    "main.css": "/new-portfolio/static/css/main.ba55bdd8.css",
+    "main.js": "/new-portfolio/static/js/main.7a7d19f8.js",
     "static/media/Screen Shot 2022-04-03 at 4.37.30 PM.png": "/new-portfolio/static/media/Screen Shot 2022-04-03 at 4.37.30 PM.fe186e83c1a9d6d0cc4d.png",
     "static/media/weather-dashboard.png": "/new-portfolio/static/media/weather-dashboard.d7720f2b3f581cce27a6.png",
     "static/media/action-house.png": "/new-portfolio/static/media/action-house.49f99236268273c706df.png",
     "static/media/deep-thoughts.png": "/new-portfolio/static/media/deep-thoughts.c82cb5cd86aed1e6b3ff.png",
     "static/media/password-generator.png": "/new-portfolio/static/media/password-generator.70fb2b58f41068fb0e97.png",
     "index.html": "/new-portfolio/index.html",
-    "main.0cd60039.css.map": "/new-portfolio/static/css/main.0cd60039.css.map",
-    "main.5fd1fed8.js.map": "/new-portfolio/static/js/main.5fd1fed8.js.map"
+    "main.ba55bdd8.css.map": "/new-portfolio/static/css/main.ba55bdd8.css.map",
+    "main.7a7d19f8.js.map": "/new-portfolio/static/js/main.7a7d19f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd60039.css",
-    "static/js/main.5fd1fed8.js"
+    "static/css/main.ba55bdd8.css",
+    "static/js/main.7a7d19f8.js"
   ]
 }
