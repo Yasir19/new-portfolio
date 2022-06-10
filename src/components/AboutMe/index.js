@@ -8,7 +8,7 @@ function AboutMe() {
             <div className="primary-text">
                 {" "}
                 <h1>Hello, I'M</h1>
-                <span className="highligted-text">Yasir Habboo.</span>
+                <span className="highligted-text">Yasir Habboo</span>
                 <p>I'm full-stack web developer</p>
             </div>
 
@@ -21,11 +21,12 @@ function AboutMe() {
                             steps={[
                                 "Full Stack Developer",
                                 1000,
-                                "Bulding solutions ",
+                                "Source control"
+                                ,
                                 1000,
-                                "MERN Sack Dev",
+                                "Data structures and algorithms ",
                                 1000,
-                                "Love to Build Internet Staff",
+                                "Testing procedures",
                                 1000,
                             ]}
                         />

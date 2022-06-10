@@ -103,8 +103,8 @@
 }
 @media screen and (max-width:610px){
 .profile-role-tagline{
-    margin: 1rem;
-}
+    margin: 1rem; 
+ } 
 @media screen and (max-width:520px){
       .highligted-text{
           padding: 3rem;
@@ -115,6 +115,14 @@
       }
       .profile-role-tagline{
           font-size: 2vh;
+      }
+      .profile-details-role{
+          max-width: max-content;
+          margin-left: 0;
+      }
+      .styles_typicalWrapper__1_Uvh{
+          font-size: 2vh;
+          /* padding-left: 10px; */
       }
 
 }

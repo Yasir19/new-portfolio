@@ -13,10 +13,10 @@ function App() {
       name:'project'
     },
     {
-      name:'contact me'
+      name:'resume'
     },
     {
-      name: 'resume'
+      name: 'contact me'
     }
   ]);
   const [currentScreen, setCurrentScreen] = useState(screens[0])

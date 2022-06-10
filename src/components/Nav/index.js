@@ -25,15 +25,21 @@ function Nav(props) {
                 <div className='menu'>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     {screens.map(Screen => (
-                        <li className={`nav-element ${currentScreen.name === Screen.name && 'navActive'}`}
+                        <li className={`nav-element ${currentScreen.name === Screen.name && 'navActive' }`}
                             key={Screen.name}
                         >
-                            <span onClick={() => setCurrentScreen(Screen)}
+                            <span onClick={() =>{
+                            setCurrentScreen(Screen);
+                            setClick(!click)
+                            
+                            }
+                        }
                             >
                                 {capitalizeFirstLetter(Screen.name)}
 
                             </span>
                         </li>
+                        
 
                     ))}
                 </ul>
